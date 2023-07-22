@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gallery</title>
+    <script src="https://kit.fontawesome.com/4053798dd4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    
+
+    
+    
+    <section id="gallery" class="gallery">
+        <nav class="nav">
+                
+            <div class="logoImg">
+                <a class="logo" href=""><img src="img/logo.png" alt="logoPic"></a>
+            </div>
+    
+            <div class="openMenu">
+                <i class="fa fa-bars"></i>
+            </div>
+            <ul class="mainMenu nav_list">
+                <li><a href="index.html">Glavna</a></li>
+                <li><a href="index.html#delatnost">Delatnost</a></li>
+                <li><a class="active" href="index.html#galerija">Galerija</a></li>
+                <li><a href="index.html#oNama">O nama</a></li>
+                <li><a href="index.html#kontakt">Kontakt</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+                <span class="icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com/sokolar_dv?igshld=MzRIODBiNWFIZA==" target="_blank"><i class="fab fa-instagram"></i></a>
+                </span>
+    
+            </ul>
+    
+    
+    
+        </nav>
+        
+        <div class="fullImg" id="fullImgBox">
+            <img src="img/image1.jpeg" alt="img" id="fullImg"> 
+            <span onclick="closeFullImg()">X</span>
+
+        </div>
+        <div class="container imgGallery">
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/resizedBird.jpg" alt="image1">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image2.jpeg" alt="image2">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image3.jpeg" alt="image3">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image6.jpeg" alt="image6">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image7.jpeg" alt="image4">
+            </div>
+            <div  class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image8.jpeg" alt="image8">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/image9.jpeg" alt="image8">
+            </div>
+            <div class="imgContainer">
+                <img onclick="openFullImg(this.src)" src="img/resized1.jpeg" alt="image5">
+            </div>
+            
+
+        </div>
+
+    </section>
+    <section>
+        <footer>
+            <p> &copy; All rights reserwed Sokolar D&V/NemanjaDvoranac. 2023.</p>
+     
+    
+    
+        </footer>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>
