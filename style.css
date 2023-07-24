@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700;900&family=Roboto:wght@400;700;900&display=swap');
 
 :root {
@@ -85,16 +84,16 @@ nav {
     
 
 }
-.nav.sticky li a {
-    /* color: var(--bela); */
-    /* background:rgb(0,0,0,.2);
-    border: 1px solid var(--crna); */
-    /* border-radius: 8px;
+/* .nav.sticky li a {
+    color: var(--bela); 
+    background:rgb(0,0,0,.2);
+    border: 1px solid var(--crna); 
+    border-radius: 8px;
     padding: 1px 3px;
-    box-shadow: 0 0 8px var(--dimCrna); */
+    box-shadow: 0 0 8px var(--dimCrna); 
     
 
-}
+} */
 
 .sticky .logo a {
     background: transparent;
@@ -570,7 +569,7 @@ footer {
     }
     
     nav .mainMenu {
-        height: 30vh;
+        height: 80vh;
         position: fixed;
         top: 0;
         right: 0;
@@ -622,12 +621,15 @@ footer {
     }
     .header {
         height: 550px;
+        
+        
     }
     
     .header h1 {
-        font-size:5rem;
-        text-align: center;
-        padding: 8px 0;
+        font-size: 5rem;
+        text-align:center;
+        padding: 8px 0px;
+        
         
         
     }
@@ -644,7 +646,7 @@ footer {
     }
     .aboutUs {
         width: 100%;
-        height: 100%; 
+        height: 100%;
         animation: animate 16s ease infinite;
         background-size: cover;
         background-position: center;
@@ -819,13 +821,34 @@ footer {
     } */
     .fullImg span {
         position: absolute;
-        top: 7%;
-        left: 7%;
+        top: 10%;
+        left: 2%;
         font-size: 30px;
         color: var(--mahovinaZelena);
         cursor: pointer;
         z-index: 100;
     
+    }
+    @media(min-width:500px) {
+        
+        .imgGallery {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            width: 100%;
+            height: 100%;
+            flex-wrap: wrap;
+        }
+        
+        
+        .imgContainer {
+            width: 350px;
+            height: 350px;
+            padding: 0;
+            margin: 5px 0;
+            
+           
+        }
     }
 
     /* ************************************ */
