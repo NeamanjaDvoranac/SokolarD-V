@@ -629,7 +629,7 @@ footer {
     .header h1 {
         font-size: 5rem;
         text-align:center;
-        padding: 8px 0px;
+        
         
         
         
@@ -640,7 +640,7 @@ footer {
     }
     header hgroup {
         
-        padding: 5px;
+        padding: 5px 20px;
         margin-top: 40px;
         
         
